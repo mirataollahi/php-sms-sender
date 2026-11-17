@@ -1,6 +1,6 @@
 # PHP SMS Sender
 
-[![CI](https://github.com/craftix/php-sms-sender/actions/workflows/ci.yml/badge.svg)](https://github.com/craftix/php-sms-sender/actions/workflows/ci.yml)
+[![CI](https://github.com/mirataollahi/php-sms-sender/actions/workflows/ci.yml/badge.svg)](https://github.com/mirataollahi/php-sms-sender/actions/workflows/ci.yml)
 [![Latest Stable Version](https://poser.pugx.org/craftix/php-sms-sender/v/stable)](https://packagist.org/packages/craftix/php-sms-sender)
 [![License](https://poser.pugx.org/craftix/php-sms-sender/license)](LICENSE)
 

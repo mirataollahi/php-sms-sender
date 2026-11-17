@@ -9,10 +9,10 @@
         "sms-gateway",
         "sms-provider"
     ],
-    "homepage": "https://github.com/craftix/php-sms-sender",
+    "homepage": "https://github.com/mirataollahi/php-sms-sender",
     "support": {
-        "issues": "https://github.com/craftix/php-sms-sender/issues",
-        "source": "https://github.com/craftix/php-sms-sender"
+        "issues": "https://github.com/mirataollahi/php-sms-sender/issues",
+        "source": "https://github.com/mirataollahi/php-sms-sender"
     },
     "require": {
         "php": "^8.2",
