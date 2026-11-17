@@ -1,0 +1,12 @@
+/vendor/
+/.phpunit.cache/
+/.phpunit.result.cache
+/.phpstan.cache/
+/coverage/
+/.idea/
+/.vscode/
+/.env
+/.env.*
+!/.env.example
+*.log
+composer.phar

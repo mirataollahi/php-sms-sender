@@ -1,0 +1,41 @@
+{
+    "name": "craftix/php-sms-sender",
+    "description": "A clean and extensible PHP package for sending SMS messages through multiple providers.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "sms",
+        "sms-sender",
+        "sms-gateway",
+        "sms-provider"
+    ],
+    "homepage": "https://github.com/craftix/php-sms-sender",
+    "support": {
+        "issues": "https://github.com/craftix/php-sms-sender/issues",
+        "source": "https://github.com/craftix/php-sms-sender"
+    },
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "psr/log": "^3.0"
+    },
+    "require-dev": {
+        "ext-curl": "*",
+        "phpstan/phpstan": "2.2.14",
+        "phpunit/phpunit": "^10.5"
+    },
+    "suggest": {
+        "ext-curl": "Required by the default CurlHttpClient transport",
+        "ext-swoole": "Required by SwooleHttpClient"
+    },
+    "autoload": {"psr-4": {"PortableSms\\": "src/"}},
+    "autoload-dev": {"psr-4": {"PortableSms\\Tests\\": "tests/"}},
+    "scripts": {
+        "analyse": "phpstan analyse --no-progress --debug",
+        "test": "phpunit",
+        "check": ["@analyse", "@test"]
+    },
+    "config": {"sort-packages": true},
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
