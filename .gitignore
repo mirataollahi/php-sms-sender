@@ -10,3 +10,4 @@
 !/.env.example
 *.log
 composer.phar
+/test.php
